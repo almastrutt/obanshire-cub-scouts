@@ -1,0 +1,1247 @@
+body
+{
+    width: 1024px;
+    margin:0 auto;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.scout_purple {
+    color: rgb(77,33,119);
+}
+
+.scout_green {
+    color: rgb(134,162,11);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.highlight_text {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: rgb(77,33,119);    
+}
+
+/*=========================================================
+header.php
+==========================================================*/
+
+
+
+#Inspire_Quote
+    {
+        display: inline-block;
+        width: 40%;
+        margin:10px 10px 20px 10px;
+        -ms-transform:rotate(-6deg);
+        -webkit-transform:rotate(-6deg);
+        transform:rotate(-6deg);
+        line-height:10px;
+        color: rgb(94,13,139);
+    }
+    
+#logo
+    {
+        display: inline-block;
+        width: 50%;
+        margin: 20px 0px;
+        -ms-transform:rotate(-6deg);
+        -webkit-transform:rotate(-6deg);
+        transform:rotate(-6deg);
+    }
+    
+#logo img
+    {
+        height: 100px;
+        width:auto;
+    }    
+    
+.socialmedialogos
+{
+    float:right;
+} 
+
+.socialmedialogos img
+{
+    margin:50px 10px;
+    width: 35px;
+    height: 35px;    
+}
+        
+    
+/*=========================================================
+includes/nav.php
+==========================================================*/
+
+nav
+    {
+    clear:both;
+    }
+    
+nav ul
+    {
+        list-style-type:none;
+        line-height:25px;
+        font-size: 15px;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        /* background-color: rgb(94,13,139); */
+        border-bottom: 3px solid rgb(94,13,139);
+        border-top: 3px solid rgb(94,13,139);
+    }
+    
+nav li
+    {
+    float:left;
+    }
+
+nav li.current a {
+    color: rgb(231,83,0);
+    background-color: rgb(94,13,139);  
+}
+    
+nav li a
+    {
+        display:block;
+        color: grey;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    
+nav li a:hover
+    {
+        color: rgb(231,83,0);
+        background-color: rgb(94,13,139);    
+    }
+    
+    
+nav li a:active 
+    {
+        color: rgb(94,13,139);
+        background-color: rgb(231,83,0);  ;
+    } 
+    
+    
+/*=========================================================
+index.php
+==========================================================*/
+.wrapper .main-image 
+    {
+        position: relative;
+        width: 100%;
+        margin: 10px 0px -10px 0px;
+    }
+    
+.wrapper .main-image img
+    {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+.wrapper .main-image h1
+    {
+        position: absolute;
+        color: rgb(94,13,139);
+        font-weight: bold;
+        top: 40px;
+        left: 60px;
+    }
+    
+.wrapper .main-image p
+    {
+        position: absolute;
+        color: black;
+        left: 60px;
+        top: 100px;
+        right: 60px;
+    }
+    
+/*=========================================================
+gallery.php
+==========================================================*/
+.wrappergallery .main-image 
+    {
+        position: relative;
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+.wrappergallery .main-image img
+    {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin: 10px auto;
+    }
+    
+    
+.wrappergallery aside 
+    {
+     float: right;
+     width: 25%;
+    }
+
+.wrappergallery aside .accordion,
+.wrappergallery aside .accordion dt,
+.wrappergallery aside .accordion dd 
+    {
+     margin: 0px;
+     padding: 0px;
+    }
+    
+    
+.wrappergallery aside .accordion dt 
+    {
+     background: rgb(77,33,119);
+     color: white;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: left;
+     border-radius: 7px 7px 0px 0px;
+     margin-top: 10px;
+     padding: 10px;
+     transition: all 300ms;
+    }
+    
+    
+.jsOn .wrappergallery aside .accordion dt 
+    {
+     border-radius: 7px;
+     cursor: pointer;
+    }
+.jsOn .wrappergallery aside .accordion dt:before {
+     content: '+';
+     margin-right: 5px;
+    }
+        
+        
+.wrappergallery aside .accordion dt.open 
+    {
+     background: rgb(134,162,11);
+     border-radius: 7px 7px 0px 0px;
+    }
+    
+    
+.wrappergallery aside .accordion dt.open:before 
+    {
+     content: '\2013';
+     margin-right: 8px;
+     padding : 3px;
+     }
+     
+     
+.wrappergallery aside .accordion dd 
+    {
+     border: 1px solid rgb(77,33,119);
+     border-top: none;
+     border-radius: 0px 0px 7px 7px;
+     padding : 3px;
+    }
+    
+    
+.jsOn .wrappergallery aside .accordion dd 
+    {
+     border-color: rgb(134,162,11);
+    }
+    
+    
+.wrappergallery aside .accordion dd p {
+     font-size: 12px;
+     text-align: left;
+     padding: 5px;
+}
+
+
+.wrappergallery aside .accordion dd a {
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+     
+}    
+
+
+/*==============slideshow============================
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides:nth-child(1) {
+    display: block;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*=========================================================
+events.php
+==========================================================*/
+.wrapperevents .main-image 
+    {
+        position: relative;
+        width: 75%;
+        float: left;
+        margin: 10px auto;
+    }
+    
+.wrapperevents .main-image img
+    {
+        border: 1px solid black;
+        width: 105%;
+    }
+
+.wrapperevents .main-image h1
+    {
+        position: absolute;
+        color: rgb(94,13,139);
+        font-weight: bold;
+        top: 40px;
+        left: 60px;
+    }
+    
+.wrapperevents .main-image p
+    {
+        position: absolute;
+        color: black;
+        left: 60px;
+        bottom: 10px;
+        top: 80px;
+    }
+    
+.wrapperevents aside 
+    {
+     float: right;
+     width: 20%;
+    }
+
+.wrapperevents aside .accordion,
+.wrapperevents aside .accordion dt,
+.wrapperevents aside .accordion dd 
+    {
+     margin: 0px;
+     padding: 0px;
+    }
+    
+    
+.wrapperevents aside .accordion dt 
+    {
+     background: rgb(77,33,119);
+     color: white;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: left;
+     border-radius: 7px 7px 0px 0px;
+     margin-top: 10px;
+     padding: 10px;
+     transition: all 300ms;
+    }    
+    
+.jsOn .wrapperevents aside .accordion dt 
+    {
+     border-radius: 7px;
+     cursor: pointer;
+    }
+.jsOn .wrapperevents aside .accordion dt:before {
+     content: '+';
+     margin-right: 5px;
+    }
+        
+        
+.wrapperevents aside .accordion dt.open 
+    {
+     background: rgb(134,162,11);
+     border-radius: 7px 7px 0px 0px;
+    }
+    
+    
+.wrapperevents aside .accordion dt.open:before 
+    {
+     content: '\2013';
+     margin-right: 8px;
+     padding : 3px;
+     }
+     
+     
+.wrapperevents aside .accordion dd 
+    {
+     border: 1px solid rgb(77,33,119);
+     border-top: none;
+     border-radius: 0px 0px 7px 7px;
+     padding : 3px;
+    }
+    
+    
+.jsOn .wrapperevents aside .accordion dd 
+    {
+     border-color: rgb(134,162,11);
+    }
+    
+    
+.wrapperevents aside .accordion dd p {
+     font-size: 12px;
+     text-align: left;
+     padding : 5px;
+}
+
+
+.wrapperevents aside .accordion dd a {
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+}
+
+    
+/*=========================================================
+badges.php
+==========================================================*/
+
+
+#wrapperbadges h2
+{
+    clear: both;
+    margin: 20px 0 0 10px;
+}
+
+#wrapperbadges input
+{
+     margin: 20px 0 0 10px;   
+}
+
+#wrapperbadges #displaybadge
+{
+    float: left;
+    width: 100%;
+    margin: 20px 0px 20px -5px;
+    padding: 0px;
+    
+}
+
+#wrapperbadges #displaybadge .badges {
+    width: 15%;
+    height: 180px;    
+    margin: 8px 8px;
+    padding: 0px;
+    float: left;
+    border: .5px solid black;    
+}
+
+#wrapperbadges #displaybadge .badges img
+{   
+    padding: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60%;
+}
+
+#wrapperbadges #displaybadge .badges .desc
+{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-align:center;
+}
+
+.recCount
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 100%;
+    font-weight: bold;
+    color:rgb(134,162,11);
+}    
+    
+#badges input[type=button]
+{
+    margin-left:20px;
+    width: 60px;
+}
+
+/* #wrapperbadges aside 
+{
+    float: right;
+    width: 20%;
+}
+
+#wrapperbadges aside .accordion,
+#wrapperbadges aside .accordion dt,
+#wrapperbadges aside .accordion dd 
+{
+    margin: 0px;
+    padding: 0px;
+}
+    
+#wrapperbadges aside .accordion dt 
+    {
+     background: rgb(77,33,119);
+     color: white;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: left;
+     border-radius: 7px 7px 0px 0px;
+     margin-top: 10px;
+     padding: 10px;
+     transition: all 300ms;
+    } 
+    
+    
+.jsOn #wrapperbadges aside .accordion dt 
+    {
+     border-radius: 7px;
+     cursor: pointer;
+    }
+.jsOn #wrapperbadges aside .accordion dt:before {
+     content: '+';
+     margin-right: 5px;
+    }
+        
+        
+#wrapperbadges aside .accordion dt.open 
+    {
+     background: rgb(134,162,11);
+     border-radius: 7px 7px 0px 0px;
+    }
+    
+    
+#wrapperbadges aside .accordion dt.open:before 
+    {
+     content: '\2013';
+     margin-right: 8px;
+     padding : 3px;
+     }
+     
+     
+#wrapperbadges aside .accordion dd 
+    {
+     border: 1px solid rgb(77,33,119);
+     border-top: none;
+     border-radius: 0px 0px 7px 7px;
+     padding : 3px;
+    }
+    
+    
+.jsOn #wrapperbadges aside .accordion dd 
+    {
+     border-color: rgb(134,162,11);
+    }
+    
+    
+#wrapperbadges aside .accordion dd p {
+     font-size: 12px;
+     text-align: left;
+     padding : 5px;
+}
+
+
+#wrapperbadges aside .accordion dd a {
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     display: block;
+}
+
+    
+/*=========================================================
+volunteer.php
+==========================================================*/
+.wrappervolunteer .main-image 
+    {
+        position: relative;
+        width: 79%;
+        float: left;
+        margin: 10px auto;
+    }
+    
+.wrappervolunteer .main-image img
+    {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+.wrappervolunteer .main-image h1
+    {
+        position: absolute;
+        color: rgb(94,13,139);
+        font-weight: bold;
+        top: 40px;
+        left: 60px;
+    }
+    
+.wrappervolunteer .main-image p
+    {
+        position: absolute;
+        color: black;
+        left: 60px;
+        top: 100px;
+        right: 50px;
+    }
+    
+    
+.wrappervolunteer aside 
+    {
+     float: right;
+     width: 20%;
+    }
+
+.wrappervolunteer aside .accordion,
+.wrappervolunteer aside .accordion dt,
+.wrappervolunteer aside .accordion dd 
+    {
+     margin: 0px;
+     padding: 0px;
+    }
+    
+    
+.wrappervolunteer aside .accordion dt 
+    {
+     background: rgb(77,33,119);
+     color: white;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: left;
+     border-radius: 7px 7px 0px 0px;
+     margin-top: 10px;
+     padding: 10px;
+     transition: all 300ms;
+    }    
+    
+.jsOn .wrappervolunteer aside .accordion dt 
+    {
+     border-radius: 7px;
+     cursor: pointer;
+    
+    }
+.jsOn .wrappervolunteer aside .accordion dt:before {
+     content: '+';
+     margin-right: 5px;
+    }
+        
+        
+.wrappervolunteer aside .accordion dt.open 
+    {
+     background: rgb(134,162,11);
+     border-radius: 7px 7px 0px 0px;
+    }
+    
+    
+.wrappervolunteer aside .accordion dt.open:before 
+    {
+     content: '\2013';
+     margin-right: 8px;
+     padding : 3px;
+     }
+     
+     
+.wrappervolunteer aside .accordion dd 
+    {
+     border: 1px solid rgb(77,33,119);
+     border-top: none;
+     border-radius: 0px 0px 7px 7px;
+     padding : 3px;
+    }
+    
+    
+.jsOn .wrappervolunteer aside .accordion dd 
+    {
+     border-color: rgb(134,162,11);
+    }
+    
+    
+.wrappervolunteer aside .accordion dd p 
+    {
+     font-size: 12px;
+     text-align: left;
+     padding : 5px;
+    }
+
+
+.wrappervolunteer aside .accordion dd a 
+    {
+     font-size: 12px;
+     text-align: left;     
+     font-weight: bold;
+     text-decoration: none;
+     color: black;
+    }
+
+
+/*=========================================================
+signin.php
+==========================================================*/
+.wrappersignin .main-image 
+    {
+        position: relative;
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+.wrappersignin .main-image img
+    {
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+
+.wrappersignin .main-image p
+    {
+        position: absolute;
+        color: black;
+        left: 60px;
+        top: 100px;
+        right: 60px;
+    }
+    
+.wrappersignin .login_form
+    {
+        position: absolute;
+        top: 60px;
+        left: 25%;
+        height: 300px;
+        width: 500px; 
+        /*border: 6px solid rgb(25,77,211);*/
+        border: 6px solid rgb(94,13,139);
+        border-radius: 5px;
+    }
+
+.wrappersignin .login_form h1
+    {
+        margin-left: 20px;
+        color: rgb(94,13,139);
+        font-weight: bold;
+    }
+    
+
+.wrappersignin .login_form label 
+    {
+        display: block;
+        color: rgb(25,77,211);
+        font-weight: bold;
+        height: 20px;
+    }
+
+.wrappersignin .login_form input, label 
+    {
+        font-size: 15px;
+        margin: 0px 20px 5px 20px;
+        width: 460px;
+    }
+
+.wrappersignin .login_form a 
+    {
+        margin: 0px 0px 20px 20px;
+        text-decoration: none;
+        font-size: 10px;
+        color: rgb(255,0,0);
+    }    
+
+.wrappersigin .login_form #submit-button 
+    {
+        float: right;
+        height: 40px;
+        margin: 20px 20px 5px 0px;
+        width: 100px;
+        background-color: rgb(25,77,211);
+        color: white;
+        display: block;
+        border: none;
+        -moz-border-radius: 5px;
+    }    
+
+
+.wrappersignin_form .login_form #submit-button:hover 
+    {
+        background-color: rgb(134,162,11);
+    }    
+
+.wrappersignin_form .login_form #submit-button:active
+    {
+        position: relative;
+        top: 2px;
+    }
+
+    
+
+/*=========================================================
+footer.php
+==========================================================*/
+footer 
+    {
+        clear: both;
+        background-color:rgb(94,13,139);
+        height: 70px;
+    }
+    
+.footer_centre
+    {
+        margin: 0px 10px 5px 10px;
+    }
+    
+.footer_centre p, a
+    {
+        line-height: 10px;
+        padding-top: 12px;
+        color: white;
+        text-align: center;
+    }
+    
+.footer_centre a
+    {
+        text-decoration: none;
+        color: white;
+        padding-bottom: 7px;
+    }
+
+.footer_centre .copyright
+    {
+        position: relative;
+        text-align: center;
+    }
+    
+.footer_centre .copyright p 
+    {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 8px;
+        color: white;
+    }
+    
+    
+/* -----------------Sidenav----------------- */
+#sidenav
+    {
+        float: left;
+        width: 15%;
+        background: white;
+        margin-left: 10px;
+        overflow: hidden;
+        text-decoration: none;
+        
+    }
+    
+    #sidenav, #sidenav dt, #sidenav dd {
+            margin: 0px;
+            padding: 5px;
+    }    
+/*----------background of the section heads------------*/
+#sidenav dt 
+    {
+        height: 20px;
+        padding: 3px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 8px;
+        margin-bottom: 5px;
+        background: rgb(94,13,139);
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        
+    }
+    
+#sidenav button
+    {
+        line-height: 25px;
+        border: 1px solid rgb(77,33,119);
+        border-top: none;
+        border-radius: 0px 0px 7px 7px;
+        padding : 3px;
+        border:none;
+        width: 100%;
+        color: white;
+        background: rgb(134,162,11);
+        padding: 5px 0px 0px 0px;  
+        margin-bottom: 5px;
+        
+    }
+    
+#sidenav dt:before 
+    {
+        content:'+';
+        margin-right: 5px;
+        padding: 3px;
+        
+    }
+    
+#sidenav dt.open:before 
+    {
+        
+    content: '\2013';
+    margin-right: 8px;
+    }
+    
+
+/*----------background block for drop down lists--------------*/
+#sidenav dd
+    {
+        /*background: rgb(134,162,11);*/
+     border-top: none;
+     border-radius: 0px 0px 7px 7px;
+     padding : 0px;
+    }
+
+
+/*----------drop down events lists--------------*/
+#sidenav dd button 
+    {
+     font-size: 13px;
+     border-top: none;
+     border-radius: 3px 3px 7px 7px;
+     padding : 1px; 
+     width: 90%;
+     margin-top: 1px;
+     margin-left: 8px;
+    }
+    
+#sidenav dd a 
+    {
+
+        background: rgb(134,162,11);
+        margin: 1px;
+        font-size: 13px;
+        padding: 1px 0px 1px 0px;
+        text-decoration: none;
+    }    
+
+/*----------drop down badges lists--------------*/
+    
+#sidenav dd a:visited
+    {
+        background: rgb(134,162,11);
+        margin: 5px;
+        border: 1px solid white;
+        font-size: 15px;
+        padding: 5px 0px 0px 5px;
+        text-decoration: none;
+    }
+    
+    
+    /*====================================================
+    logout.php
+    =====================================================*/
+    
+    .confirmation
+    {
+        margin: 50px auto 50px auto;
+        width: 500px;
+        height: 150px;
+        border: 6px solid rgb(25,77,211);
+        border-radius: 10px;
+        position: relative;
+        z-index: 0;
+    }
+
+    .confirmation section h2
+    {
+        color: rgb(25, 77, 211);
+        margin: 10px 20px 10px 20px;
+    }
+    
+    
+    .confirmation section p
+    {
+        margin: 0px 20px 20px 20px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    
+    .confirmation section form input#yes
+    {    
+        clear: none;
+        float: left;        
+        margin: 0;
+        padding: 0;
+        border:none;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        width: 50%;
+        height: 63px;
+        z-index:-1;
+        border-radius: 0 0 0 3px;        
+        background-color: black;
+        color: white;
+    }
+    
+    .confirmation section form input#no
+    {
+        margin: 0;
+        padding: 0;        
+        border:none;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        width: 50%;
+        height: 63px;
+        z-index:-1;
+        border-radius: 0 0 0 3px;        
+        color: white;        
+        background-color: rgb(0,105,144);
+        border-radius: 0;
+    }
+    
+    .confirmation section form input:hover 
+    {
+        cursor: pointer;
+    }
+    
+    
+/* ============== tophalf.php ==================== */    
+
+.tophalf{
+    float:left;
+    width:80%;
+    height: 100%;
+    margin: 10px 10px 20px 20px;
+    padding: 0px;
+}
+
+.tophalf h2 {
+    text-alilgn: left;
+    margin: 10px 0px 10px 20px;
+    color: rgb(77,33,119);
+}
+
+.tophalf label {
+    display:block;
+    margin: 10px 0px 0px 20px;
+    color: rgb(77,33,119);
+    font-weight: bold;
+    font-size: 12px;
+}
+    
+.tophalf input,
+.tophalf select {
+    display: block;
+    font-size: 15px;
+    margin: 10px 10px 5px 20px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.tophalf input:focus,
+.tophalf select:focus{
+    width: 450px;
+    border: 2px solid red;
+    background:lightblue;
+    color: black;
+    
+}
+
+.tophalf #displayChoose{
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    border: 0px solid;
+}
+
+.tophalf #displayChoose img {
+    width: 100%;
+}
+
+.tophalf #submit-button {
+    float:left;
+    height: 40px;
+    margin: 20px 10px 5px 20px;
+    width: 100px;
+    background-color: rgb(77,33,119);
+    color: white;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    -moz-border-radius: 5px;
+    box-sizing: border-box; 
+    
+}
+
+.tophalf #submit-button: active {
+    position: relative;
+    top:2px;
+}
+
+.tophalf #reset-button {
+    float: left;
+    height: 40px;
+    margin: 20px 10px 5px 20px;
+    width: 100px;
+    background-color: rgb(243,122,31);
+    color: white;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    -moz-border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.tophalf #reset-button: hover {
+        background-color: rgb(134,162,11);
+}
+
+.tophalf #reset-button: active {
+    position: relative;
+    top: 2px;
+}
+
+.tophalf form {
+    margin: 0px 10px 10px 20px;
+}
+
+.tophalf .newuser {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tophalf .newuser caption {
+    margin: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(77,33,119);
+}
+
+.tophalf newuser th {
+    text-align: left;
+    background: rgb(77,33,119);
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.tophalf .newuser td{
+    text-align: left;
+    background: rgb(77,33,119);
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+        width: 230px;
+
+
+}   
+
+.tophalf .newuser td input,
+.tophalf .newuser td select {
+    margin: 0px;
+    width: 100%;
+    background: white;
+    color: black;
+    font-size: 12px;
+}
+
+.tophalf .newuser td input:focus,
+.tophalf .newuser td select:focus {
+    width: 100%;
+    border: 2px solid red;
+    background: lightblue;
+    color: black;
+}
+
+.tophalf .listdata {
+    width: 100%;
+    margin: 0px 10px 0px 20px;
+    padding: 0px;
+}
+
+.tophalf .listdata tr:hover {
+    border: 2px solid red;
+    background:lightblue;
+    color: black;
+}
+
+/*--------------------------------------

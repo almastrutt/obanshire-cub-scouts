@@ -1,0 +1,240 @@
+[05-Feb-2018 12:15:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT* FROM tb...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:15:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT* FROM tb...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:15:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT* FROM tb...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:15:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT* FROM tb...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:15:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:15:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:18:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:19:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[05-Feb-2018 12:24:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':badge' at line 1' in /home/ubuntu/workspace/config/searchbadge.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/config/searchbadge.php(12): PDO->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/searchbadge.php on line 12
+[09-Feb-2018 13:55:31 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/ubuntu/workspace/config/signin_connect.php on line 23
+[09-Feb-2018 13:55:31 UTC] PHP Stack trace:
+[09-Feb-2018 13:55:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/signin_connect.php:0
+[09-Feb-2018 13:57:30 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/ubuntu/workspace/config/signin_connect.php on line 23
+[09-Feb-2018 13:57:30 UTC] PHP Stack trace:
+[09-Feb-2018 13:57:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/signin_connect.php:0
+[09-Feb-2018 13:59:36 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/ubuntu/workspace/config/signin_connect.php on line 23
+[09-Feb-2018 13:59:36 UTC] PHP Stack trace:
+[09-Feb-2018 13:59:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/signin_connect.php:0
+[09-Feb-2018 13:59:46 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/ubuntu/workspace/config/signin_connect.php on line 23
+[09-Feb-2018 13:59:46 UTC] PHP Stack trace:
+[09-Feb-2018 13:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/signin_connect.php:0
+[09-Feb-2018 14:00:08 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/ubuntu/workspace/config/signin_connect.php on line 23
+[09-Feb-2018 14:00:08 UTC] PHP Stack trace:
+[09-Feb-2018 14:00:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/signin_connect.php:0
+[21-Feb-2018 20:32:57 UTC] PHP Warning:  require_once(../confit/db_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/config/insert_gallery.php on line 2
+[21-Feb-2018 20:32:57 UTC] PHP Stack trace:
+[21-Feb-2018 20:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_gallery.php:0
+[21-Feb-2018 20:32:57 UTC] PHP Fatal error:  require_once(): Failed opening required '../confit/db_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/config/insert_gallery.php on line 2
+[21-Feb-2018 20:32:57 UTC] PHP Stack trace:
+[21-Feb-2018 20:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_gallery.php:0
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 32
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:32
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 33
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:33
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 34
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:34
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 35
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:35
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 36
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:36
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 37
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:37
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 38
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:38
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 39
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:39
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 40
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:40
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 41
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:41
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 42
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:42
+[26-Feb-2018 14:18:07 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 43
+[26-Feb-2018 14:18:07 UTC] PHP Stack trace:
+[26-Feb-2018 14:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:18:07 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:43
+[26-Feb-2018 14:18:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2031 ' in /home/ubuntu/workspace/config/insert_user.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 44
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 32
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:32
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 33
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:33
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 34
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:34
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 35
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:35
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 36
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:36
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 37
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:37
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 38
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:38
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 39
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:39
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 40
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:40
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 41
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:41
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 42
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:42
+[26-Feb-2018 14:19:41 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 43
+[26-Feb-2018 14:19:41 UTC] PHP Stack trace:
+[26-Feb-2018 14:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:19:41 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:43
+[26-Feb-2018 14:19:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2031 ' in /home/ubuntu/workspace/config/insert_user.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 44
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 32
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:32
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 33
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:33
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 34
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:34
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 35
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:35
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 36
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:36
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 37
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:37
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 38
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:38
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 39
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:39
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 40
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:40
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 41
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:41
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 42
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:42
+[26-Feb-2018 14:32:45 UTC] PHP Warning:  PDOStatement::bindParam() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/config/insert_user.php on line 43
+[26-Feb-2018 14:32:45 UTC] PHP Stack trace:
+[26-Feb-2018 14:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/config/insert_user.php:0
+[26-Feb-2018 14:32:45 UTC] PHP   2. PDOStatement->bindParam() /home/ubuntu/workspace/config/insert_user.php:43
+[26-Feb-2018 14:32:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2031 ' in /home/ubuntu/workspace/config/insert_user.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 44
+[26-Feb-2018 14:42:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/config/insert_user.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(33): PDOStatement->bindParam(':fname', 'Alma')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 33
+[26-Feb-2018 14:46:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/config/insert_user.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(33): PDOStatement->bindParam(':fname', 'Alm')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 33
+[26-Feb-2018 14:51:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUE (?, ?, ?, ?)' at line 2' in /home/ubuntu/workspace/config/insert_user.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/config/insert_user.php(46): PDO->prepare('INSERT INTO tbl...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/config/insert_user.php on line 46
